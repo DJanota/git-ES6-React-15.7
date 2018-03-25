@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+#app {
+    background-color: #607d8b;
+    width: 250px;
+    padding: 20px 30px;
+    margin: 10px auto;
+    text-align: center;
+}
+
+#app a, .controls + div {
+    color: #bbbbbb;
+}
+
+#app a {
+    text-decoration: none;
+    margin: 0 3px;
+}
+
+.controls + div {
+    font-size: 30px;
+    padding: 10px 0;
+}
+
+.controls button {
+    font-size: 12px;
+    margin: 0 5px;
+    border: 0;
+    background-color: inherit;
+    color: white;
+    font-family: Arial;
+    cursor: pointer;
+}
+
+.controls button:hover {
+    color: lightgray;
+}
